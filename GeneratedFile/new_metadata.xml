@@ -1,0 +1,695 @@
+<dataDscr>
+        <varGrp ID="VG1" var=v1 v2 v3 v4 v5 v6 v7 v8 v9 v10 v11 v12 v13 v14 v15>
+            <labl>Prefixes</labl>
+        </varGrp>
+    
+            <var ID="v1" name="wot:">
+                <labl level"variable">http://xmlns.com/wot/0.1</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG2" var="v2 v3">
+                <labl>wot:</labl>
+            </varGrp>
+        
+            <var ID="v2" name="wot:assurance">
+                <labl level="variable">http://xmlns.com/wot/0.1/assurance</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v3" name="wot:keyid">
+                <labl level="variable">http://xmlns.com/wot/0.1/keyid</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v4" name="owl:">
+                <labl level"variable">http://www.w3.org/2002/07/owl</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG3" var="v5 v6">
+                <labl>owl:</labl>
+            </varGrp>
+        
+            <var ID="v5" name="owl:sameAs">
+                <labl level="variable">http://www.w3.org/2002/07/owl/sameAs</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v6" name="owl:differentFrom">
+                <labl level="variable">http://www.w3.org/2002/07/owl/differentFrom</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v7" name="rdf:">
+                <labl level"variable">http://www.w3.org/1999/02/22-rdf-syntax-ns</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG4" var="">
+                <labl>rdf:</labl>
+            </varGrp>
+        
+            <var ID="v8" name="dct:">
+                <labl level"variable">http://purl.org/dc/terms</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG5" var="v9">
+                <labl>dct:</labl>
+            </varGrp>
+        
+            <var ID="v9" name="dct:isReplacedBy">
+                <labl level="variable">http://purl.org/dc/terms/isReplacedBy</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v10" name="lang:">
+                <labl level"variable">http://purl.org/net/inkel/rdf/schemas/lang/1.1</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG6" var="v11">
+                <labl>lang:</labl>
+            </varGrp>
+        
+            <var ID="v11" name="lang:masters">
+                <labl level="variable">http://purl.org/net/inkel/rdf/schemas/lang/1.1/masters</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v12" name="rdfs:">
+                <labl level"variable">http://www.w3.org/2000/01/rdf-schema</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG7" var="v13 v14">
+                <labl>rdfs:</labl>
+            </varGrp>
+        
+            <var ID="v13" name="rdfs:seeAlso">
+                <labl level="variable">http://www.w3.org/2000/01/rdf-schema/seeAlso</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v14" name="rdfs:resource">
+                <labl level="variable">http://www.w3.org/2000/01/rdf-schema/resource</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v15" name="rss:">
+                <labl level"variable">http://purl.org/rss/1.0</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG8" var="v16 v17">
+                <labl>rss:</labl>
+            </varGrp>
+        
+            <var ID="v16" name="rss:channel">
+                <labl level="variable">http://purl.org/rss/1.0/channel</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v17" name="rss:title">
+                <labl level="variable">http://purl.org/rss/1.0/title</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v18" name=":">
+                <labl level"variable">http://xmlns.com/foaf/0.1</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG9" var="v19 v20 v21 v22 v23 v24 v25 v26 v27 v28 v29 v30 v31 v32 v33 v34 v35 v36 v37 v38 v39 v40 v41 v42 v43 v44 v45 v46 v47 v48 v49 v50 v51 v52 v53 v54 v55 v56 v57 v58 v59 v60 v61 v62 v63 v64 v65 v66 v67 v68 v69 v70 v71 v72 v73 v74 v75 v76 v77 v78 v79 v80 v81 v82 v83 v84 v85 v86 v87 v88 v89 v90 v91 v92 v93 v94 v95 v96 v97 v98 v99 v100 v101 v102 v103 v104 v105 v106 v107">
+                <labl>:</labl>
+            </varGrp>
+        
+            <var ID="v19" name=":PersonalProfileDocument">
+                <labl level="variable">http://xmlns.com/foaf/0.1/PersonalProfileDocument</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v20" name=":assurance">
+                <labl level="variable">http://xmlns.com/foaf/0.1/assurance</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v21" name=":primaryTopic">
+                <labl level="variable">http://xmlns.com/foaf/0.1/primaryTopic</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v22" name=":Person">
+                <labl level="variable">http://xmlns.com/foaf/0.1/Person</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v23" name=":name">
+                <labl level="variable">http://xmlns.com/foaf/0.1/name</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v24" name=":nick">
+                <labl level="variable">http://xmlns.com/foaf/0.1/nick</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v25" name=":sameAs">
+                <labl level="variable">http://xmlns.com/foaf/0.1/sameAs</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v26" name=":jabberID">
+                <labl level="variable">http://xmlns.com/foaf/0.1/jabberID</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v27" name=":aimChatID">
+                <labl level="variable">http://xmlns.com/foaf/0.1/aimChatID</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v28" name=":msnChatID">
+                <labl level="variable">http://xmlns.com/foaf/0.1/msnChatID</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v29" name=":mbox">
+                <labl level="variable">http://xmlns.com/foaf/0.1/mbox</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v30" name=":tipjar">
+                <labl level="variable">http://xmlns.com/foaf/0.1/tipjar</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v31" name=":danbri">
+                <labl level="variable">http://xmlns.com/foaf/0.1/danbri</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v32" name=":daniel">
+                <labl level="variable">http://xmlns.com/foaf/0.1/daniel</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v33" name=":mbox_sha1sum">
+                <labl level="variable">http://xmlns.com/foaf/0.1/mbox_sha1sum</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v34" name=":holdsAccount">
+                <labl level="variable">http://xmlns.com/foaf/0.1/holdsAccount</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v35" name=":node1atbu8dmlx1">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx1</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v36" name=":accountServiceHomepage">
+                <labl level="variable">http://xmlns.com/foaf/0.1/accountServiceHomepage</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v37" name=":accountName">
+                <labl level="variable">http://xmlns.com/foaf/0.1/accountName</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v38" name=":seeAlso">
+                <labl level="variable">http://xmlns.com/foaf/0.1/seeAlso</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v39" name=":node1atbu8dmlx2">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx2</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v40" name=":accountProfilePage">
+                <labl level="variable">http://xmlns.com/foaf/0.1/accountProfilePage</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v41" name=":node1atbu8dmlx3">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx3</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v42" name=":openid">
+                <labl level="variable">http://xmlns.com/foaf/0.1/openid</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v43" name=":channel">
+                <labl level="variable">http://xmlns.com/foaf/0.1/channel</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v44" name=":title">
+                <labl level="variable">http://xmlns.com/foaf/0.1/title</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v45" name=":description">
+                <labl level="variable">http://xmlns.com/foaf/0.1/description</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v46" name=":node1atbu8dmlx4">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx4</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v47" name=":masters">
+                <labl level="variable">http://xmlns.com/foaf/0.1/masters</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v48" name=":homepage">
+                <labl level="variable">http://xmlns.com/foaf/0.1/homepage</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v49" name=":dateOfBirth">
+                <labl level="variable">http://xmlns.com/foaf/0.1/dateOfBirth</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v50" name=":img">
+                <labl level="variable">http://xmlns.com/foaf/0.1/img</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v51" name=":keyid">
+                <labl level="variable">http://xmlns.com/foaf/0.1/keyid</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v52" name=":pubkeyAddress">
+                <labl level="variable">http://xmlns.com/foaf/0.1/pubkeyAddress</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v53" name=":schoolHomepage">
+                <labl level="variable">http://xmlns.com/foaf/0.1/schoolHomepage</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v54" name=":nearestAirport">
+                <labl level="variable">http://xmlns.com/foaf/0.1/nearestAirport</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v55" name=":node1atbu8dmlx5">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx5</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v56" name=":icao">
+                <labl level="variable">http://xmlns.com/foaf/0.1/icao</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v57" name=":iata">
+                <labl level="variable">http://xmlns.com/foaf/0.1/iata</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v58" name=":myersBriggs">
+                <labl level="variable">http://xmlns.com/foaf/0.1/myersBriggs</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v59" name=":plan">
+                <labl level="variable">http://xmlns.com/foaf/0.1/plan</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v60" name=":differentFrom">
+                <labl level="variable">http://xmlns.com/foaf/0.1/differentFrom</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v61" name=":node1atbu8dmlx6">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx6</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v62" name=":isPrimaryTopicOf">
+                <labl level="variable">http://xmlns.com/foaf/0.1/isPrimaryTopicOf</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v63" name=":node1atbu8dmlx7">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx7</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v64" name=":knows">
+                <labl level="variable">http://xmlns.com/foaf/0.1/knows</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v65" name=":node1atbu8dmlx8">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx8</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v66" name=":birthPlace">
+                <labl level="variable">http://xmlns.com/foaf/0.1/birthPlace</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v67" name=":node1atbu8dmlx9">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx9</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v68" name=":node1atbu8dmlx10">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx10</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v69" name=":node1atbu8dmlx11">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx11</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v70" name=":node1atbu8dmlx12">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx12</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v71" name=":node1atbu8dmlx13">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx13</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v72" name=":node1atbu8dmlx14">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx14</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v73" name=":node1atbu8dmlx15">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx15</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v74" name=":node1atbu8dmlx16">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx16</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v75" name=":node1atbu8dmlx17">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx17</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v76" name=":node1atbu8dmlx18">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx18</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v77" name=":depiction">
+                <labl level="variable">http://xmlns.com/foaf/0.1/depiction</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v78" name=":thumbnail">
+                <labl level="variable">http://xmlns.com/foaf/0.1/thumbnail</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v79" name=":format">
+                <labl level="variable">http://xmlns.com/foaf/0.1/format</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v80" name=":node1atbu8dmlx19">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx19</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v81" name=":node1atbu8dmlx20">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx20</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v82" name=":node1atbu8dmlx21">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx21</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v83" name=":Image">
+                <labl level="variable">http://xmlns.com/foaf/0.1/Image</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v84" name=":node1atbu8dmlx22">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx22</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v85" name=":node1atbu8dmlx23">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx23</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v86" name=":node1atbu8dmlx24">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx24</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v87" name=":made">
+                <labl level="variable">http://xmlns.com/foaf/0.1/made</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v88" name=":node1atbu8dmlx25">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx25</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v89" name=":node1atbu8dmlx26">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx26</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v90" name=":node1atbu8dmlx27">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx27</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v91" name=":node1atbu8dmlx28">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx28</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v92" name=":node1atbu8dmlx29">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx29</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v93" name=":weblog">
+                <labl level="variable">http://xmlns.com/foaf/0.1/weblog</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v94" name=":node1atbu8dmlx30">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx30</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v95" name=":node1atbu8dmlx31">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx31</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v96" name=":Document">
+                <labl level="variable">http://xmlns.com/foaf/0.1/Document</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v97" name=":creator">
+                <labl level="variable">http://xmlns.com/foaf/0.1/creator</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v98" name=":node1atbu8dmlx32">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx32</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v99" name=":node1atbu8dmlx33">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx33</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v100" name=":node1atbu8dmlx34">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx34</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v101" name=":workplaceHomepage">
+                <labl level="variable">http://xmlns.com/foaf/0.1/workplaceHomepage</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v102" name=":node1atbu8dmlx35">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx35</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v103" name=":wife">
+                <labl level="variable">http://xmlns.com/foaf/0.1/wife</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v104" name=":node1atbu8dmlx36">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx36</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v105" name=":node1atbu8dmlx37">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx37</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v106" name=":node1atbu8dmlx38">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx38</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v107" name=":node1atbu8dmlx39">
+                <labl level="variable">http://xmlns.com/foaf/0.1/node1atbu8dmlx39</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v108" name="wn:">
+                <labl level"variable">http://xmlns.com/wordnet/1.6</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG10" var="v109 v110">
+                <labl>wn:</labl>
+            </varGrp>
+        
+            <var ID="v109" name="wn:Airport">
+                <labl level="variable">http://xmlns.com/wordnet/1.6/Airport</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v110" name="wn:Document">
+                <labl level="variable">http://xmlns.com/wordnet/1.6/Document</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v111" name="air:">
+                <labl level"variable">http://www.megginson.com/exp/ns/airports</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG11" var="v112 v113">
+                <labl>air:</labl>
+            </varGrp>
+        
+            <var ID="v112" name="air:icao">
+                <labl level="variable">http://www.megginson.com/exp/ns/airports/icao</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v113" name="air:iata">
+                <labl level="variable">http://www.megginson.com/exp/ns/airports/iata</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v114" name="contact:">
+                <labl level"variable">http://www.w3.org/2000/10/swap/pim/contact</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG12" var="v115">
+                <labl>contact:</labl>
+            </varGrp>
+        
+            <var ID="v115" name="contact:nearestAirport">
+                <labl level="variable">http://www.w3.org/2000/10/swap/pim/contact/nearestAirport</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v116" name="dc:">
+                <labl level"variable">http://purl.org/dc/elements/1.1</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG13" var="v117 v118 v119 v120 v121">
+                <labl>dc:</labl>
+            </varGrp>
+        
+            <var ID="v117" name="dc:title">
+                <labl level="variable">http://purl.org/dc/elements/1.1/title</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v118" name="dc:description">
+                <labl level="variable">http://purl.org/dc/elements/1.1/description</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v119" name="dc:format">
+                <labl level="variable">http://purl.org/dc/elements/1.1/format</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v120" name="dc:thumbnail">
+                <labl level="variable">http://purl.org/dc/elements/1.1/thumbnail</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v121" name="dc:creator">
+                <labl level="variable">http://purl.org/dc/elements/1.1/creator</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v122" name="uranai:">
+                <labl level"variable">http://kota.s12.xrea.com/vocab/urana</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG14" var="">
+                <labl>uranai:</labl>
+            </varGrp>
+        
+            <var ID="v123" name="dbr:">
+                <labl level"variable">http://dbpedia.org/resource</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG15" var="v124">
+                <labl>dbr:</labl>
+            </varGrp>
+        
+            <var ID="v124" name="dbr:London">
+                <labl level="variable">http://dbpedia.org/resource/London</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <var ID="v125" name="dbo:">
+                <labl level"variable">http://dbpedia.org/ontology</labl>
+                <varFormat type="character"/>
+            </var>
+        
+            <varGrp ID="VG16" var="v126">
+                <labl>dbo:</labl>
+            </varGrp>
+        
+            <var ID="v126" name="dbo:birthPlace">
+                <labl level="variable">http://dbpedia.org/ontology/birthPlace</labl>
+                <varFormat type="character"/>
+            </var>
+        </dataDscr>
